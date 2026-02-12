@@ -13,8 +13,6 @@ Optimize operations: Find the "Sweet Spot" between quality of care and cost effi
 💻 Technologies & Tools
 Microsoft Power BI – Main dashboarding tool for data visualization.
 
-Python (Seaborn) – Used for advanced statistical distribution analysis (Boxplots) to detect outliers.
-
 DAX (Data Analysis Expressions) – Used for complex measures, including Year-Over-Year growth and dynamic averages.
 
 Power Query (M) – ETL process used for data cleaning and transformation (handling missing values).
@@ -33,7 +31,6 @@ The Insight: Using Power BI's AI capabilities, I identified that Extreme Severit
 Business Value: This helps separate "justified" high costs (due to complex cases) from actual operational inefficiencies.
 
 3. Outlier Detection (Python Integration)
-The Insight: Integrated Python visuals (Seaborn boxplots) were used to show the spread of costs per diagnosis.
 
 Business Value: Standard averages can be misleading. Boxplots revealed extreme cost outliers that were skewing the financial data for specific departments.
 
