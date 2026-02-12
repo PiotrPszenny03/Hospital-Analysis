@@ -1,1 +1,57 @@
-# Hospital-Analysis
+HealthStat: Hospital Performance & Cost Efficiency Dashboard
+🎯 Project Goal
+The primary objective of this project was to analyze the operational efficiency and financial performance of hospital facilities in New York State.
+
+Unlike standard reporting, this dashboard focuses on optimizing costs and reducing Length of Stay (LOS). It allows stakeholders to:
+
+Benchmark facilities: Identify which hospitals are cost-effective vs. which are outliers.
+
+Analyze drivers: Understand how clinical severity impacts financial outcomes.
+
+Optimize operations: Find the "Sweet Spot" between quality of care and cost efficiency.
+
+💻 Technologies & Tools
+Microsoft Power BI – Main dashboarding tool for data visualization.
+
+Python (Seaborn) – Used for advanced statistical distribution analysis (Boxplots) to detect outliers.
+
+DAX (Data Analysis Expressions) – Used for complex measures, including Year-Over-Year growth and dynamic averages.
+
+Power Query (M) – ETL process used for data cleaning and transformation (handling missing values).
+
+AI Key Influencers – Machine Learning visual used for root cause analysis of stay duration.
+
+📊 Key Insights & Visuals
+1. Cost vs. Efficiency Matrix
+The Insight: I created a scatter plot correlating Average LOS (X-axis) with Average Cost (Y-axis).
+
+Business Value: This visualization instantly highlights "expensive and slow" facilities (Top-Right quadrant) vs. "efficient" ones (Bottom-Left), serving as a primary tool for management benchmarking.
+
+2. Root Cause Analysis (AI)
+The Insight: Using Power BI's AI capabilities, I identified that Extreme Severity of Illness is the primary driver for increased Length of Stay (+8.89 days on average), rather than hospital inefficiency alone.
+
+Business Value: This helps separate "justified" high costs (due to complex cases) from actual operational inefficiencies.
+
+3. Outlier Detection (Python Integration)
+The Insight: Integrated Python visuals (Seaborn boxplots) were used to show the spread of costs per diagnosis.
+
+Business Value: Standard averages can be misleading. Boxplots revealed extreme cost outliers that were skewing the financial data for specific departments.
+
+📂 Project Structure
+The repository is organized as follows:
+
+images/ - Folder containing screenshots used in this documentation (home_page.png, scatter_plot.png, etc.).
+
+HealthStat_Dashboard.pbix - The main Power BI file. Download this to view the interactive report.
+
+README.md - Project documentation (This file).
+
+🚀 How to Run
+Download the HealthStat_Dashboard.pbix file from this repository.
+
+Open it in Power BI Desktop.
+
+The dataset is embedded within the file, so no external SQL connection is needed to explore the insights.
+
+👤 Author
+Piotr Pszenny Aspiring Risk & Data Analyst 
