@@ -33,6 +33,8 @@ Business Value: This helps separate "justified" high costs (due to complex cases
 📂 Project Structure
 The repository is organized as follows:
 
+images/ - Folder containing screenshots used in this documentation (home_page.png, scatter_plot.png, etc.).
+
 HealthStat_Dashboard.pbix - The main Power BI file. Download this to view the interactive report.
 
 README.md - Project documentation (This file).
