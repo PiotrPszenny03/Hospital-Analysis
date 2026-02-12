@@ -1,4 +1,7 @@
 HealthStat: Hospital Performance & Cost Efficiency Dashboard
+
+<img width="1149" height="651" alt="image" src="https://github.com/user-attachments/assets/04bd8a63-07af-46dd-8b7f-b4059cdf0b76" />
+
 🎯 Project Goal
 The primary objective of this project was to analyze the operational efficiency and financial performance of hospital facilities in New York State.
 
@@ -20,6 +23,9 @@ Power Query (M) – ETL process used for data cleaning and transformation (handl
 AI Key Influencers – Machine Learning visual used for root cause analysis of stay duration.
 
 📊 Key Insights & Visuals
+
+<img width="1153" height="650" alt="image" src="https://github.com/user-attachments/assets/1ffa486b-e0a3-474d-8062-5a260dca8608" />
+
 1. Cost vs. Efficiency Matrix
 The Insight: I created a scatter plot correlating Average LOS (X-axis) with Average Cost (Y-axis).
 
