@@ -30,14 +30,8 @@ The Insight: Using Power BI's AI capabilities, I identified that Extreme Severit
 
 Business Value: This helps separate "justified" high costs (due to complex cases) from actual operational inefficiencies.
 
-3. Outlier Detection (Python Integration)
-
-Business Value: Standard averages can be misleading. Boxplots revealed extreme cost outliers that were skewing the financial data for specific departments.
-
 📂 Project Structure
 The repository is organized as follows:
-
-images/ - Folder containing screenshots used in this documentation (home_page.png, scatter_plot.png, etc.).
 
 HealthStat_Dashboard.pbix - The main Power BI file. Download this to view the interactive report.
 
